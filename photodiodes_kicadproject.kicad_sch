@@ -1,0 +1,136 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "34628f3a-efff-4ff7-8718-bbff2513d117")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c17fc7a-bbc4-4735-b424-737fbd159871")
+	)
+	(sheet
+		(at 114.3 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 93 192 255 1)
+		)
+		(uuid "1f6dabf1-02d7-4346-97e1-fc00537d835c")
+		(property "Sheetname" "Voltage Regulator"
+			(at 114.3 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltageregulator.kicad_sch"
+			(at 114.3 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5VIN" input
+			(at 114.3 88.9 180)
+			(uuid "afaca7a4-da1e-4c8a-93d9-2c8389da70f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "photodiodes_kicadproject"
+				(path "/34628f3a-efff-4ff7-8718-bbff2513d117"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 232 255 144 1)
+		)
+		(uuid "5466c7b3-7642-4ffe-90de-75b326f4cb64")
+		(property "Sheetname" "Power Input"
+			(at 76.2 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerinput.kicad_sch"
+			(at 76.2 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5VIN" output
+			(at 96.52 88.9 0)
+			(uuid "fe3e258c-d225-4126-98cc-202a2e29fa6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "photodiodes_kicadproject"
+				(path "/34628f3a-efff-4ff7-8718-bbff2513d117"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
