@@ -1514,7 +1514,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_Powermite_AK"
+			(property "Footprint" "Diode_SMD:D_Powermite_LargeCathode"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4836,6 +4836,12 @@
 		(uuid "50160628-7681-4237-8e20-1d4d927e360f")
 	)
 	(junction
+		(at 157.48 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5631af63-6c49-41a4-9a74-9a51194d689c")
+	)
+	(junction
 		(at 88.9 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4854,10 +4860,10 @@
 		(uuid "609e795b-d022-4fea-a63c-4ccf395e4b71")
 	)
 	(junction
-		(at 124.46 38.1)
+		(at 99.06 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "74caa99c-063b-461d-8a49-44629b614afc")
+		(uuid "77dac387-32f5-4d5b-b937-5c6cd11988f6")
 	)
 	(junction
 		(at 190.5 66.04)
@@ -4884,16 +4890,16 @@
 		(uuid "9ad91352-f255-4cd9-81b0-837353b4eaef")
 	)
 	(junction
-		(at 99.06 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b567647-e529-4df6-8c65-62173b625491")
-	)
-	(junction
 		(at 203.2 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b53b9f80-bafa-40f6-97a9-f228800c5564")
+	)
+	(junction
+		(at 124.46 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b735e5b0-12af-4f38-a708-10d2830eae38")
 	)
 	(junction
 		(at 200.66 19.05)
@@ -4930,12 +4936,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f08d27c8-5fc9-4987-ad20-e6a1629881f5")
-	)
-	(junction
-		(at 157.48 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3f712b0-5c16-4d01-95a2-868bafadf0c6")
 	)
 	(junction
 		(at 88.9 165.1)
@@ -4982,16 +4982,6 @@
 			(type default)
 		)
 		(uuid "0aaf18e8-468e-4510-9e37-9274481b893d")
-	)
-	(wire
-		(pts
-			(xy 99.06 38.1) (xy 106.68 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b5c25ed-13f3-44ab-a771-96e6cefa7931")
 	)
 	(wire
 		(pts
@@ -5065,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 124.46 38.1)
+			(xy 124.46 19.05) (xy 124.46 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5135,16 +5125,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 71.12) (xy 172.72 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e82a25e-438d-465c-9ba8-56a085a58426")
-	)
-	(wire
-		(pts
 			(xy 167.64 20.32) (xy 167.64 19.05)
 		)
 		(stroke
@@ -5182,6 +5162,16 @@
 			(type default)
 		)
 		(uuid "32c462cf-e2d3-45e1-a67e-e84359bcb2b9")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335f1766-495d-4e61-bb3c-f44ed88a2345")
 	)
 	(wire
 		(pts
@@ -5372,16 +5362,6 @@
 			(type default)
 		)
 		(uuid "57c09b43-16d9-4031-ab88-2873ae688de4")
-	)
-	(wire
-		(pts
-			(xy 157.48 71.12) (xy 165.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "589ce60d-7497-47d6-bad5-20544092cb4a")
 	)
 	(wire
 		(pts
@@ -5715,6 +5695,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f3bb03-6725-4572-8ae7-bbe0217dd812")
+	)
+	(wire
+		(pts
 			(xy 133.35 48.26) (xy 133.35 55.88)
 		)
 		(stroke
@@ -5785,13 +5775,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 19.05) (xy 124.46 38.1)
+			(xy 114.3 38.1) (xy 124.46 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c11e98c9-c874-4104-b7a8-a0eb9e1face4")
+		(uuid "bc41464a-8168-4070-be4e-58fb328e9374")
 	)
 	(wire
 		(pts
@@ -5915,6 +5905,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 38.1) (xy 99.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6f5477-0c10-4b8e-aa5f-79bfb3917af3")
+	)
+	(wire
+		(pts
 			(xy 50.8 114.3) (xy 50.8 123.19)
 		)
 		(stroke
@@ -6015,6 +6015,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 38.1) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d3b556-0273-4564-80e2-ce31fa79d439")
+	)
+	(wire
+		(pts
 			(xy 63.5 63.5) (xy 74.93 63.5)
 		)
 		(stroke
@@ -6032,16 +6042,6 @@
 			(type default)
 		)
 		(uuid "f95030ce-9b68-4059-a868-579c1d725c17")
-	)
-	(wire
-		(pts
-			(xy 114.3 38.1) (xy 124.46 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae82deb-7b41-4dfa-95bc-0dca06c3ad28")
 	)
 	(wire
 		(pts
@@ -6574,7 +6574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_Powermite_AK"
+		(property "Footprint" "Diode_SMD:D_Powermite_LargeCathode"
 			(at 168.91 75.565 0)
 			(hide yes)
 			(show_name no)
@@ -12753,7 +12753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_Powermite_AK"
+		(property "Footprint" "Diode_SMD:D_Powermite_LargeCathode"
 			(at 110.49 33.655 0)
 			(hide yes)
 			(show_name no)
