@@ -16,6 +16,52 @@
 		(uuid "8c17fc7a-bbc4-4735-b424-737fbd159871")
 	)
 	(sheet
+		(at 165.1 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 37 255 132 1)
+		)
+		(uuid "14e32143-d22d-48ab-a8cb-3021a96c08fc")
+		(property "Sheetname" "Photodiode Circuit"
+			(at 165.1 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiode.kicad_sch"
+			(at 165.1 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "photodiodes_kicadproject"
+				(path "/34628f3a-efff-4ff7-8718-bbff2513d117"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 114.3 76.2)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
@@ -61,6 +107,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+6V" output
+			(at 139.7 85.09 0)
+			(uuid "75e2c4dd-d1f0-4992-939d-911549c6d3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-6V" output
+			(at 139.7 92.71 0)
+			(uuid "e9366eab-bce1-42e1-8b4c-8ee08bea2cf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
