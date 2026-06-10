@@ -279,7 +279,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5V input power from connector"
+	(text "12V input power from connector"
 		(exclude_from_sim no)
 		(at 99.06 80.01 0)
 		(effects
@@ -309,7 +309,7 @@
 		)
 		(uuid "e07b99c1-13d5-4ee6-9809-1537790712ec")
 	)
-	(hierarchical_label "+5VIN"
+	(hierarchical_label "+12VIN"
 		(shape output)
 		(at 123.19 85.09 180)
 		(effects

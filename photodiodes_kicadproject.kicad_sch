@@ -99,34 +99,14 @@
 				(justify left top)
 			)
 		)
-		(pin "+5VIN" input
+		(pin "+12V" input
 			(at 114.3 88.9 180)
-			(uuid "afaca7a4-da1e-4c8a-93d9-2c8389da70f2")
+			(uuid "04756734-504f-42c4-b06d-b5711f26ba5b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "+6V" output
-			(at 139.7 85.09 0)
-			(uuid "75e2c4dd-d1f0-4992-939d-911549c6d3cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "-6V" output
-			(at 139.7 92.71 0)
-			(uuid "e9366eab-bce1-42e1-8b4c-8ee08bea2cf5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -175,9 +155,9 @@
 				(justify left top)
 			)
 		)
-		(pin "+5VIN" output
+		(pin "+12VIN" output
 			(at 96.52 88.9 0)
-			(uuid "fe3e258c-d225-4126-98cc-202a2e29fa6e")
+			(uuid "2d2b9b22-8dc0-4b5f-a1db-e71a1ebd278b")
 			(effects
 				(font
 					(size 1.27 1.27)
